@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\web_view.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\web_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\action_bar_detail.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\action_bar_detail.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_lang.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\fragment_lang.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_themes.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\item_themes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_detail.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MPL\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "D:\\AndroidStudioProjects\\MPL\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    }
+]

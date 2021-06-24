@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-android-scope:2.2.0-alpha-1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37406768cccde940262b86b254f41162/jetified-koin-android-scope-2.2.0-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37406768cccde940262b86b254f41162/jetified-koin-android-scope-2.2.0-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37406768cccde940262b86b254f41162/jetified-koin-android-scope-2.2.0-alpha-1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/854f40f5af841a597cc7285a36b16022/jetified-koin-android-scope-2.2.0-alpha-1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/854f40f5af841a597cc7285a36b16022/jetified-koin-android-scope-2.2.0-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/854f40f5af841a597cc7285a36b16022/jetified-koin-android-scope-2.2.0-alpha-1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecb5249056c4e50227dad1ea308ea8f7/jetified-koin-android-scope-2.2.0-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecb5249056c4e50227dad1ea308ea8f7/jetified-koin-android-scope-2.2.0-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecb5249056c4e50227dad1ea308ea8f7/jetified-koin-android-scope-2.2.0-alpha-1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-android-scope/2.2.0-alpha-1/14debdb8393a6dd322e03f6cd2a54d534f210e18/koin-android-scope-2.2.0-alpha-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-android-scope/2.2.0-alpha-1/d4525e37708d548611d7a25322fc7222b645d824/koin-android-scope-2.2.0-alpha-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

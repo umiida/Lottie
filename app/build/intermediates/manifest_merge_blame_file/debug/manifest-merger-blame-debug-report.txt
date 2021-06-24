@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uz.texnopos.physics"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:6:5-66
+11-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Permission will be merged into the manifest of the hosting app. -->
+14    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:8:3-74
+15-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:8:20-72
+16
+17    <application
+17-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:8:5-24:19
+18        android:name="uz.tatunf.programming.App"
+18-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:9:9-28
+19        android:allowBackup="true"
+19-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\76b716d167931a9a3603d12113c154a9\core-1.3.2\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher_foreground"
+22-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:11:9-56
+23        android:label="@string/app_name"
+23-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:13:9-54
+25        android:supportsRtl="true"
+25-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:14:9-35
+26        android:theme="@style/Theme.Physics" >
+26-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:15:9-45
+27        <activity android:name="uz.tatunf.programming.MainActivity" >
+27-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:17:19-68
+28            <intent-filter>
+28-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:19:17-69
+29-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:21:17-77
+31-->D:\AndroidStudioProjects\MPL\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->[androidx.room:room-runtime:2.2.6] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\e105f6de59e0b8cd97207a701e3ca662\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+36            android:name="androidx.room.MultiInstanceInvalidationService"
+36-->[androidx.room:room-runtime:2.2.6] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\e105f6de59e0b8cd97207a701e3ca662\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+37            android:directBootAware="true"
+37-->[androidx.room:room-runtime:2.2.6] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\e105f6de59e0b8cd97207a701e3ca662\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+38            android:exported="false" />
+38-->[androidx.room:room-runtime:2.2.6] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\e105f6de59e0b8cd97207a701e3ca662\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\cc12ff9c21df8ed1958e57b922185a17\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\cc12ff9c21df8ed1958e57b922185a17\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+42            android:authorities="uz.texnopos.physics.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\cc12ff9c21df8ed1958e57b922185a17\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\cc12ff9c21df8ed1958e57b922185a17\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+44            android:multiprocess="true" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\cc12ff9c21df8ed1958e57b922185a17\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+45        <activity
+45-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:5-271
+46            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+46-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:15-102
+47            android:enabled="false"
+47-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:103-126
+48            android:exported="false"
+48-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:127-151
+49            android:launchMode="singleInstance"
+49-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:204-239
+50            android:process=":playcore_missing_splits_activity"
+50-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:152-203
+51            android:stateNotNeeded="true" />
+51-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:12:240-269
+52        <activity
+52-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:13:5-226
+53            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+53-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:13:15-95
+54            android:enabled="false"
+54-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:13:96-119
+55            android:exported="false"
+55-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:13:120-144
+56            android:stateNotNeeded="true"
+56-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:13:145-174
+57            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+57-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:13:175-224
+58        <service
+58-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:16:5-145
+59            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+59-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:16:14-95
+60            android:enabled="false"
+60-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:16:96-119
+61            android:exported="true" />
+61-->[com.google.android.play:core:1.7.2] C:\Users\umida\.gradle\caches\transforms-2\files-2.1\4eacac95cf96418daee02dd527b980a9\jetified-core-1.7.2\AndroidManifest.xml:16:120-143
+62    </application>
+63
+64</manifest>

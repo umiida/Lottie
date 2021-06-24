@@ -1,0 +1,21 @@
+uz/tatunf/programming/databinding/WebViewBinding.java
+ uz.tatunf.programming.databinding.WebViewBinding
+uz/tatunf/programming/BuildConfig.java
+ uz.tatunf.programming.BuildConfig
+uz/tatunf/programming/databinding/FragmentSplashBinding.java
+ uz.tatunf.programming.databinding.FragmentSplashBinding
+uz/tatunf/programming/databinding/ActivityMainBinding.java
+ uz.tatunf.programming.databinding.ActivityMainBinding
+uz/tatunf/programming/databinding/FragmentLangBinding.java
+ uz.tatunf.programming.databinding.FragmentLangBinding
+uz/tatunf/programming/databinding/ActionBarDetailBinding.java
+ uz.tatunf.programming.databinding.ActionBarDetailBinding
+uz/tatunf/programming/databinding/FragmentDetailBinding.java
+ uz.tatunf.programming.databinding.FragmentDetailBinding
+uz/tatunf/programming/data/LangDao_Impl.java
+ uz.tatunf.programming.data.LangDao_Impl
+uz/tatunf/programming/databinding/ItemThemesBinding.java
+ uz.tatunf.programming.databinding.ItemThemesBinding
+uz/tatunf/programming/data/LangDatabase_Impl.java
+ uz.tatunf.programming.data.LangDatabase_Impl
+ uz.tatunf.programming.data.LangDatabase_Impl$1

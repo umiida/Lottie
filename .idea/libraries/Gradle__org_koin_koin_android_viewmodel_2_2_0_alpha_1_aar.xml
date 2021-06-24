@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-android-viewmodel:2.2.0-alpha-1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/107caa30d3fa29fa6f75433b5ed93c6a/jetified-koin-android-viewmodel-2.2.0-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/107caa30d3fa29fa6f75433b5ed93c6a/jetified-koin-android-viewmodel-2.2.0-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/107caa30d3fa29fa6f75433b5ed93c6a/jetified-koin-android-viewmodel-2.2.0-alpha-1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ec92470eb8b2c01bdf58768f95a229f/jetified-koin-android-viewmodel-2.2.0-alpha-1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ec92470eb8b2c01bdf58768f95a229f/jetified-koin-android-viewmodel-2.2.0-alpha-1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ec92470eb8b2c01bdf58768f95a229f/jetified-koin-android-viewmodel-2.2.0-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0a01f3db7692c648caa0873745e4db0/jetified-koin-android-viewmodel-2.2.0-alpha-1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0a01f3db7692c648caa0873745e4db0/jetified-koin-android-viewmodel-2.2.0-alpha-1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0a01f3db7692c648caa0873745e4db0/jetified-koin-android-viewmodel-2.2.0-alpha-1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-android-viewmodel/2.2.0-alpha-1/c96a1de57e9cbe95e388d19c1669badff63f7a9b/koin-android-viewmodel-2.2.0-alpha-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-android-viewmodel/2.2.0-alpha-1/cf983bdf432035aed7aa2945e53e37efbb67b7a5/koin-android-viewmodel-2.2.0-alpha-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

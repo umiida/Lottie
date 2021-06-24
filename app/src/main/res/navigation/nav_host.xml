@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/fragmentSplash">
+
+    <fragment
+        android:id="@+id/langFragment"
+        android:name="uz.tatunf.programming.ui.lang.LangFragment"
+        android:label="ThemesFragment"
+        tools:layout="@layout/fragment_lang">
+        <action
+            android:id="@+id/action_langFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSplash"
+        android:name="uz.tatunf.programming.ui.splash.FragmentSplash"
+        android:label="FragmentSplash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_fragmentSplash_to_langFragment"
+            app:destination="@id/langFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/fragmentSplash"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="uz.tatunf.programming.ui.detail.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="pos"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailFragment_to_fragmentWebView"
+            app:destination="@id/fragmentWebView"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/fragmentSplash"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentWebView"
+        android:name="uz.tatunf.programming.ui.detail.FragmentWebView"
+        android:label="FragmentWebView"
+        tools:layout="@layout/web_view">
+        <argument
+            android:name="pos"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+</navigation>

@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_host.xml","javaFiles":["uz.tatunf.programming.ui.lang.LangFragmentDirections","uz.tatunf.programming.ui.splash.FragmentSplashDirections","uz.tatunf.programming.ui.detail.DetailFragmentDirections","uz.tatunf.programming.ui.detail.DetailFragmentArgs","uz.tatunf.programming.ui.detail.FragmentWebViewArgs"]}]
